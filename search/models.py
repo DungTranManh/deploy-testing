@@ -7,6 +7,7 @@ class Data(models.Model):
     reb = models.TextField()
     name_type = models.TextField()
     trans_det = models.TextField()
+    tieng_viet = models.TextField(null=True)
 
     class Meta:
         ordering = ('ent_seq','keb','reb','trans_det')
