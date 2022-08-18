@@ -11,5 +11,5 @@ class SearchSerializer(serializers.ModelSerializer):
     # trans_det = serializers.CharField()
     class Meta:
         model = Data
-        fields = ['ent_seq','keb','reb','name_type','trans_det']
+        fields = ['ent_seq','keb','reb','name_type','trans_det','tieng_viet']
 
