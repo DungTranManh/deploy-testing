@@ -1,4 +1,3 @@
-from asyncio.windows_events import NULL
 from tkinter.tix import CheckList
 from django.shortcuts import render
 from rest_framework import filters
