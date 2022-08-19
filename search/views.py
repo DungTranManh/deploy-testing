@@ -1,4 +1,3 @@
-from tkinter.tix import CheckList
 from django.shortcuts import render
 from rest_framework import filters
 from rest_framework.views import APIView
